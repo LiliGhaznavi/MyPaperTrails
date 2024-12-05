@@ -57,12 +57,76 @@ nav a.inactive:hover {
   background-size: cover;
 }
 
+/* Welcome Section Style */
+.hero p {
+  color: #1d1d1d;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 35%;
+}
+
+.hero h1 {
+  color: #8d1413;
+  font-family: "Kaushan Script", serif;
+  font-size: 120px;
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: -1.5%;
+}
+
+.hero img {
+  display: block;
+  margin: 0 auto;
+  width: 88%;
+}
+
+.desc p {
+  color: #1d1d1d;
+  text-align: center;
+  font-size: 18px;
+  margin: 23% 10% 10% 10%;
+}
+
+.desc div {
+  display: flex;
+  justify-content: center;
+}
+
+.desc a {
+  text-decoration: none;
+  background-color: #8d1413;
+  color: #e4cba5;
+  font-size: 17px;
+  padding: 2% 4%;
+  border: 2px solid #e4cba5;
+  border-radius: 6px;
+}
+
+.desc a:hover {
+  border: 2px solid #8d1413;
+  color: #8d1413;
+  background-color: transparent;
+}
+
+/* Footer Style */
+
+footer p {
+  color: #1d1d1d;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 33%;
+}
+
 /* Customize Styles For Different Screens*/
 @media (max-width: 393px) {
   nav a {
     font-size: 13px;
     margin-right: 0px;
     padding: 7px 22px;
+  }
+
+  .hero h1 {
+    font-size: 58px;
   }
 }
 
@@ -72,6 +136,56 @@ nav a.inactive:hover {
     margin-right: 0px;
     padding: 7px 22px;
   }
+
+  .hero p {
+    margin-top: 25%;
+  }
+
+  .hero h1 {
+    font-size: 63px;
+  }
+
+  footer p {
+    margin-top: 20%;
+  }
+}
+
+@media (min-width: 448px) and (max-width: 500px) {
+  .hero p {
+    margin-top: 20%;
+  }
+
+  .hero h1 {
+    font-size: 70px;
+    margin-top: 15%;
+  }
+
+  .desc p {
+    margin: 15% 8% 8% 8%;
+  }
+
+  footer p {
+    margin-top: 30%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 575px) {
+  .hero p {
+    margin-top: 17%;
+  }
+
+  .hero h1 {
+    font-size: 80px;
+    margin-top: 15%;
+  }
+
+  .desc p {
+    margin: 15% 8% 8% 8%;
+  }
+
+  footer p {
+    margin-top: 25%;
+  }
 }
 
 @media (max-width: 575px) {
@@ -80,9 +194,67 @@ nav a.inactive:hover {
   }
 }
 
+@media (min-width: 576px) and (max-width: 640px) {
+  .hero p {
+    margin-top: 15%;
+  }
+
+  .hero h1 {
+    font-size: 90px;
+    margin-top: 15%;
+  }
+
+  .desc p {
+    margin: 15% 8% 8% 8%;
+  }
+
+  footer p {
+    margin-top: 15%;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
   ul {
     margin-top: 3%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 766px) {
+  .hero p {
+    margin-top: 8%;
+  }
+
+  .hero h1 {
+    font-size: 100px;
+    margin-top: 7%;
+  }
+
+  .desc p {
+    margin: 12% 8% 5% 8%;
+  }
+
+  footer p {
+    margin-top: 15%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 834px) {
+  .hero p {
+    margin-top: 8%;
+    font-size: 32px;
+  }
+
+  .hero h1 {
+    font-size: 110px;
+    margin-top: 7%;
+  }
+
+  .desc p {
+    margin: 12% 8% 5% 8%;
+  }
+
+  footer p {
+    margin-top: 13%;
   }
 }
 
@@ -94,5 +266,130 @@ nav a.inactive:hover {
   nav img {
     margin-right: 1%;
     margin-left: 1%;
+  }
+}
+
+@media (min-width: 835px) and (max-width: 920px) {
+  .hero p {
+    margin-top: 8%;
+    font-size: 38px;
+  }
+
+  .hero h1 {
+    font-size: 120px;
+    margin-top: 7%;
+    margin-bottom: -2.5%;
+  }
+
+  .desc p {
+    margin: 12% 8% 5% 8%;
+  }
+
+  .desc p {
+    padding: 1% 2%;
+  }
+
+  footer p {
+    margin-top: 7%;
+  }
+}
+
+@media (min-width: 921px) and (max-width: 1110px) {
+  .hero p {
+    margin-top: 5%;
+    font-size: 48px;
+  }
+
+  .hero h1 {
+    font-size: 160px;
+    margin-top: 3%;
+    margin-bottom: -2.5%;
+  }
+
+  .desc p {
+    margin: 5% 7% 4% 7%;
+  }
+
+  .desc a {
+    padding: 1% 2%;
+  }
+
+  footer p {
+    margin-top: 6%;
+  }
+}
+
+@media (min-width: 1111px) and (max-width: 1230px) {
+  .hero p {
+    margin-top: 3%;
+    font-size: 58px;
+  }
+
+  .hero h1 {
+    font-size: 180px;
+    margin-top: 3%;
+    margin-bottom: -2.5%;
+  }
+
+  .desc p {
+    margin: 5% 7% 3% 7%;
+  }
+
+  .desc a {
+    padding: 1% 2%;
+  }
+
+  footer p {
+    margin-top: 6%;
+  }
+}
+
+@media (min-width: 1111px) and (max-width: 1230px) {
+  .hero p {
+    margin-top: 2%;
+    font-size: 58px;
+  }
+
+  .hero h1 {
+    font-size: 180px;
+    margin-top: 3%;
+    margin-bottom: -2.5%;
+  }
+
+  .desc p {
+    margin: 5% 7% 3% 7%;
+  }
+
+  .desc a {
+    padding: 1% 2%;
+  }
+
+  footer p {
+    margin-top: 6%;
+  }
+}
+
+@media (min-width: 1231px) {
+  .hero p {
+    margin-top: 0.2%;
+    font-size: 58px;
+  }
+
+  .hero h1 {
+    font-size: 200px;
+    margin-top: 1%;
+    margin-bottom: -2.5%;
+  }
+
+  .desc p {
+    margin: 2% 7% 3% 7%;
+  }
+
+  .desc a {
+    padding: 1% 2%;
+  }
+
+  footer p {
+    margin-top: 4%;
   }
 }
