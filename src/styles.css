@@ -58,20 +58,22 @@ nav a.inactive:hover {
 }
 
 /* Welcome Section Style */
-.hero p {
+.heading-part-1 {
   color: #1d1d1d;
   font-size: 28px;
   text-align: center;
   margin-top: 35%;
+  display: block;
 }
 
-.hero h1 {
+.heading-part-2 {
   color: #8d1413;
   font-family: "Kaushan Script", serif;
   font-size: 120px;
   text-align: center;
   margin-top: 20%;
   margin-bottom: -1.5%;
+  display: block;
 }
 
 .hero img {
@@ -125,7 +127,7 @@ footer p {
     padding: 7px 22px;
   }
 
-  .hero h1 {
+  .heading-part-2 {
     font-size: 58px;
   }
 }
@@ -137,11 +139,11 @@ footer p {
     padding: 7px 22px;
   }
 
-  .hero p {
+  .heading-part-1 {
     margin-top: 25%;
   }
 
-  .hero h1 {
+  .heading-part-2 {
     font-size: 63px;
   }
 
@@ -151,11 +153,11 @@ footer p {
 }
 
 @media (min-width: 448px) and (max-width: 500px) {
-  .hero p {
+  .heading-part-1 {
     margin-top: 20%;
   }
 
-  .hero h1 {
+  .heading-part-2 {
     font-size: 70px;
     margin-top: 15%;
   }
@@ -170,11 +172,11 @@ footer p {
 }
 
 @media (min-width: 501px) and (max-width: 575px) {
-  .hero p {
+  .heading-part-1 {
     margin-top: 17%;
   }
 
-  .hero h1 {
+  .heading-part-2 {
     font-size: 80px;
     margin-top: 15%;
   }
@@ -195,11 +197,11 @@ footer p {
 }
 
 @media (min-width: 576px) and (max-width: 640px) {
-  .hero p {
+  .heading-part-1 {
     margin-top: 15%;
   }
 
-  .hero h1 {
+  .heading-part-2 {
     font-size: 90px;
     margin-top: 15%;
   }
@@ -220,11 +222,11 @@ footer p {
 }
 
 @media (min-width: 641px) and (max-width: 766px) {
-  .hero p {
+  .heading-part-1 {
     margin-top: 8%;
   }
 
-  .hero h1 {
+  .heading-part-2 {
     font-size: 100px;
     margin-top: 7%;
   }
@@ -239,12 +241,12 @@ footer p {
 }
 
 @media (min-width: 767px) and (max-width: 834px) {
-  .hero p {
+  .heading-part-1 {
     margin-top: 8%;
     font-size: 32px;
   }
 
-  .hero h1 {
+  .heading-part-2 {
     font-size: 110px;
     margin-top: 7%;
   }
@@ -270,12 +272,12 @@ footer p {
 }
 
 @media (min-width: 835px) and (max-width: 920px) {
-  .hero p {
+  .heading-part-1 {
     margin-top: 8%;
     font-size: 38px;
   }
 
-  .hero h1 {
+  .heading-part-2 {
     font-size: 120px;
     margin-top: 7%;
     margin-bottom: -2.5%;
@@ -286,7 +288,7 @@ footer p {
   }
 
   .desc p {
-    padding: 1% 2%;
+    padding: 1%;
   }
 
   footer p {
@@ -295,12 +297,12 @@ footer p {
 }
 
 @media (min-width: 921px) and (max-width: 1110px) {
-  .hero p {
+  .heading-part-1 {
     margin-top: 5%;
     font-size: 48px;
   }
 
-  .hero h1 {
+  .heading-part-2 {
     font-size: 160px;
     margin-top: 3%;
     margin-bottom: -2.5%;
@@ -320,15 +322,15 @@ footer p {
 }
 
 @media (min-width: 1111px) and (max-width: 1230px) {
-  .hero p {
+  .heading-part-1 {
     margin-top: 3%;
     font-size: 58px;
   }
 
-  .hero h1 {
+  .heading-part-2 {
     font-size: 180px;
     margin-top: 3%;
-    margin-bottom: -2.5%;
+    margin-bottom: -2%;
   }
 
   .desc p {
@@ -345,12 +347,12 @@ footer p {
 }
 
 @media (min-width: 1111px) and (max-width: 1230px) {
-  .hero p {
+  .heading-part-1 {
     margin-top: 2%;
     font-size: 58px;
   }
 
-  .hero h1 {
+  .heading-part-2 {
     font-size: 180px;
     margin-top: 3%;
     margin-bottom: -2.5%;
@@ -370,15 +372,19 @@ footer p {
 }
 
 @media (min-width: 1231px) {
-  .hero p {
+  .heading-part-1 {
     margin-top: 0.2%;
     font-size: 58px;
   }
 
-  .hero h1 {
+  .heading-part-2 {
     font-size: 200px;
     margin-top: 1%;
-    margin-bottom: -2.5%;
+    margin-bottom: -2%;
+  }
+
+  .hero img {
+    width: 65%;
   }
 
   .desc p {
