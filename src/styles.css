@@ -7,7 +7,6 @@
 body {
   background-color: #e4cba5;
   background-image: url(../images/bg-img.webp);
-  background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 
@@ -119,6 +118,77 @@ footer p {
   margin-top: 33%;
 }
 
+/* Title Styles for "My Story" and "Note Hub" Pages */
+.title h1 {
+  margin-left: 4%;
+  margin-bottom: -2%;
+}
+
+.title img {
+  margin-left: 2%;
+  width: 31%;
+}
+
+/* Content Style for "My Story" Page */
+.content {
+  margin-top: 4%;
+}
+
+.content-text p {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 3%;
+  font-size: 18px;
+}
+
+.content-image {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.content-image img {
+  width: 25%;
+  height: auto;
+  border: 2px solid #8d1413;
+  border-radius: 6px;
+}
+
+/* Content Style for "Note Hub" Page */
+.post {
+  background-color: #8d1413;
+  display: inline-block;
+  padding: 1% 2%;
+  border-radius: 6px;
+  margin: 4%;
+  width: 20%;
+}
+
+.post:hover {
+  background-color: rgb(141, 20, 19, 0.9);
+}
+
+.post a {
+  color: #e4cba5;
+  text-decoration: none;
+  text-align: center;
+}
+
+.post a h2 {
+  margin-bottom: 3%;
+}
+
+.post a h3 {
+  margin-bottom: 3%;
+}
+
+.note-hub-footer {
+  margin-top: 95%;
+}
+
+.my-journey1-footer {
+  margin-top: 2px !important;
+}
+
 /* Customize Styles For Different Screens*/
 @media (max-width: 393px) {
   nav a {
@@ -129,6 +199,36 @@ footer p {
 
   .heading-part-2 {
     font-size: 58px;
+  }
+
+  .title h1 {
+    margin-left: 4%;
+    margin-bottom: -2%;
+  }
+
+  .title img {
+    margin-left: 2%;
+    width: 31%;
+  }
+
+  .content {
+    margin-top: 4%;
+  }
+
+  .content-text p {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+    font-size: 18px;
+  }
+
+  .content-image {
+    display: none;
+  }
+
+  .post {
+    display: block;
+    width: 100%;
   }
 }
 
@@ -169,6 +269,31 @@ footer p {
   footer p {
     margin-top: 30%;
   }
+
+  .title h1 {
+    margin-left: 4%;
+    margin-bottom: -1%;
+  }
+
+  .title img {
+    margin-left: 2%;
+    width: 24%;
+  }
+
+  .content {
+    margin-top: 4%;
+  }
+
+  .content-text p {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+    font-size: 18px;
+  }
+
+  .content-image {
+    display: none;
+  }
 }
 
 @media (min-width: 501px) and (max-width: 575px) {
@@ -187,6 +312,31 @@ footer p {
 
   footer p {
     margin-top: 25%;
+  }
+
+  .title h1 {
+    margin-left: 4%;
+    margin-bottom: -1%;
+  }
+
+  .title img {
+    margin-left: 2%;
+    width: 21%;
+  }
+
+  .content {
+    margin-top: 4%;
+  }
+
+  .content-text p {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+    font-size: 18px;
+  }
+
+  .content-image {
+    display: none;
   }
 }
 
@@ -213,6 +363,31 @@ footer p {
   footer p {
     margin-top: 15%;
   }
+
+  .title h1 {
+    margin-left: 4%;
+    margin-bottom: -1%;
+  }
+
+  .title img {
+    margin-left: 2%;
+    width: 20%;
+  }
+
+  .content {
+    margin-top: 4%;
+  }
+
+  .content-text p {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+    font-size: 18px;
+  }
+
+  .content-image {
+    display: none;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -238,6 +413,31 @@ footer p {
   footer p {
     margin-top: 15%;
   }
+
+  .title h1 {
+    margin-left: 4%;
+    margin-bottom: -0.7%;
+  }
+
+  .title img {
+    margin-left: 2%;
+    width: 19%;
+  }
+
+  .content {
+    margin-top: 4%;
+  }
+
+  .content-text p {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+    font-size: 18px;
+  }
+
+  .content-image {
+    display: none;
+  }
 }
 
 @media (min-width: 767px) and (max-width: 834px) {
@@ -257,6 +457,43 @@ footer p {
 
   footer p {
     margin-top: 13%;
+  }
+
+  .title h1 {
+    margin-left: 4%;
+    margin-bottom: -0.7%;
+  }
+
+  .title img {
+    margin-left: 2%;
+    width: 19%;
+  }
+
+  .content {
+    margin-top: 4%;
+  }
+
+  .content-text p {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+    font-size: 18px;
+  }
+
+  .content-image {
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  .content-image img {
+    width: 25%;
+    height: auto;
+    border: 2px solid #8d1413;
+    border-radius: 6px;
+  }
+
+  .my-story-footer {
+    margin-top: 5%;
   }
 }
 
@@ -294,6 +531,43 @@ footer p {
   footer p {
     margin-top: 7%;
   }
+
+  .title h1 {
+    margin-left: 4%;
+    margin-bottom: -1%;
+  }
+
+  .title img {
+    margin-left: 3%;
+    width: 14%;
+  }
+
+  .content {
+    margin-top: 4%;
+  }
+
+  .content-text p {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+    font-size: 18px;
+  }
+
+  .content-image {
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  .content-image img {
+    width: 25%;
+    height: auto;
+    border: 2px solid #8d1413;
+    border-radius: 6px;
+  }
+
+  .my-story-footer {
+    margin-top: 4.5%;
+  }
 }
 
 @media (min-width: 921px) and (max-width: 1110px) {
@@ -318,6 +592,42 @@ footer p {
 
   footer p {
     margin-top: 6%;
+  }
+
+  .title h1 {
+    margin-left: 4%;
+    margin-bottom: -1%;
+  }
+
+  .title img {
+    margin-left: 3%;
+    width: 12%;
+  }
+
+  .content {
+    margin-top: 3%;
+  }
+
+  .content-text p {
+    margin: 0 4% 1.5% 4%;
+
+    font-size: 18px;
+  }
+
+  .content-image {
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .content-image img {
+    width: 25%;
+    height: auto;
+    border: 2px solid #8d1413;
+    border-radius: 6px;
+  }
+
+  .my-story-footer {
+    margin-top: 4.5%;
   }
 }
 
@@ -344,6 +654,42 @@ footer p {
   footer p {
     margin-top: 6%;
   }
+
+  .title h1 {
+    margin-left: 4%;
+    margin-bottom: -1%;
+  }
+
+  .title img {
+    margin-left: 3%;
+    width: 12%;
+  }
+
+  .content {
+    margin-top: 3%;
+  }
+
+  .content-text p {
+    margin: 0 4% 1.5% 4%;
+
+    font-size: 18px;
+  }
+
+  .content-image {
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .content-image img {
+    width: 25%;
+    height: auto;
+    border: 2px solid #8d1413;
+    border-radius: 6px;
+  }
+
+  .my-story-footer {
+    margin-top: 4.5%;
+  }
 }
 
 @media (min-width: 1111px) and (max-width: 1230px) {
@@ -368,6 +714,42 @@ footer p {
 
   footer p {
     margin-top: 6%;
+  }
+
+  .title h1 {
+    margin-left: 4%;
+    margin-bottom: -0.6%;
+  }
+
+  .title img {
+    margin-left: 3%;
+    width: 11%;
+  }
+
+  .content {
+    margin-top: 1.5%;
+  }
+
+  .content-text p {
+    margin: 0 4% 1.5% 4%;
+
+    font-size: 18px;
+  }
+
+  .content-image {
+    margin-top: 4%;
+    text-align: center;
+  }
+
+  .content-image img {
+    width: 21%;
+    height: auto;
+    border: 2px solid #8d1413;
+    border-radius: 6px;
+  }
+
+  .my-story-footer {
+    margin-top: 3%;
   }
 }
 
@@ -397,5 +779,42 @@ footer p {
 
   footer p {
     margin-top: 4%;
+  }
+
+  .title h1 {
+    margin-left: 4%;
+    margin-bottom: -0.2%;
+    font-size: 28px;
+  }
+
+  .title img {
+    margin-left: 3%;
+    width: 10%;
+  }
+
+  .content {
+    margin-top: 1.5%;
+  }
+
+  .content-text p {
+    margin: 0 4% 1.5% 4%;
+
+    font-size: 18px;
+  }
+
+  .content-image {
+    margin-top: 3%;
+    text-align: center;
+  }
+
+  .content-image img {
+    width: 21%;
+    height: auto;
+    border: 2px solid #8d1413;
+    border-radius: 6px;
+  }
+
+  .my-story-footer {
+    margin-top: 3%;
   }
 }
