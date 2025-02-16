@@ -2,12 +2,14 @@
   "name": "mypapertrails",
   "version": "1.0.0",
   "description": "Welcome to **MyPaperTrails**, a digital space where I share my thoughts, stories, and personal journey. This project reflects my love for journaling and web design, bringing the essence of a traditional notebook to the web.",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel",
+    "build": "parcel build"
   },
+  "browserslist": ">0.5%, last 2 versions, not dead",
   "keywords": [],
-  "author": "",
+  "author": "Lili Ghaznavi",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.13.3"
